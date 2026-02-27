@@ -1,0 +1,33 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "NearHelp backend server for emergency SOS platform",
+  "keywords": [
+    "sos",
+    "emergency",
+    "nearhelp",
+    "hackathon",
+    "community"
+  ],
+  "homepage": "https://github.com/utkarsh-sketch/OJASS-HACKATHON#readme",
+  "bugs": {
+    "url": "https://github.com/utkarsh-sketch/OJASS-HACKATHON/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/utkarsh-sketch/OJASS-HACKATHON.git"
+  },
+  "license": "MIT",
+  "author": "NearHelp Team",
+  "type": "yes",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.2.3",
+    "nodemon": "^3.1.14"
+  }
+}
